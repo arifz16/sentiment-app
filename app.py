@@ -1,10 +1,13 @@
 # app.py
 import streamlit as st
-import pickle
+import pandas as pd
 import re
+import pickle
+import nltk
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
-import nltk
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 nltk.download('stopwords')
 
